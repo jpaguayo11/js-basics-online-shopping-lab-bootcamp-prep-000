@@ -43,7 +43,7 @@ function total() {
   function add (a, b) {
     return a + b
   }
-  var sum = cart.reduce(add)
+  var sum = thePrices.reduce(add)
   return sum
   }
 
