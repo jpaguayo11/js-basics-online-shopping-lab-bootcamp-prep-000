@@ -44,8 +44,6 @@ function total() {
   return thePrices
   }
 
-}
-
 function removeFromCart(item) {
   // write your code here
 }
