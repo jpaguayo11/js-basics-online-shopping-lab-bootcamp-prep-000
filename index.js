@@ -53,8 +53,10 @@ function removeFromCart(item) {
     cart.splice(i, 1)
     }
   }
+if (itWorked !== 3) {
   return "That item is not in your cart."
   }
+}
 
 function placeOrder(cardNumber) {
   if (typeof cardNumber == 'number') {
