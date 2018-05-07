@@ -60,9 +60,9 @@ if (itWorked !== 3) {
 }
 
 function placeOrder(cardNumber) {
-  if (isNan(cardNumber)) {
-    return "Sorry, we don't have a credit card on file for you."
-  } else {
+  if (typeof cardNumber == 'number') {
     return "you owe us money!"
+  } else {
+    return "Sorry, we don't have a credit card on file for you."
   }
 }
