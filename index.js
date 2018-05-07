@@ -40,10 +40,8 @@ function total() {
   var totalSum = 0
   for (var i = 0; i < cart.length; i++) {
     thePrices.push(cart[i].itemPrice)
-  for (var x = 0; i < thePrices.length; x++) {
-    totalSum += thePrices[x]
   }
-  return totalSum
+  return thePrices
   }
 
 }
